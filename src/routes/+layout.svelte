@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
     let { children } = $props();
+    const pages: string[] = ["home", "about", "skills"]
 </script>
 
 <nav>
-    <a href="/">HOME</a>
-    <a href="/about">ABOUT</a>
-    <a href="/skills">SKILLS</a>
-<!--    <a href="/projects">projects</a>-->
+    {#each pages as page}
+        <a href={page === 'home' ? '/' : page}>{page.toUpperCase()}</a>
+    {/each}
 </nav>
 
 {@render children()}
