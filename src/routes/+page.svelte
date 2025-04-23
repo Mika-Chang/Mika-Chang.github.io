@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="container">
     <div>
         <img src="/images/cropped_pfp.jpeg" alt="A picture of me (Mika Chang)">
@@ -20,7 +17,12 @@
     .container{
         display: flex;
         flex-wrap: wrap;
-        /*flex-direction: column;*/
+        background: #CCCCCC; /* default just in case */
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px hsl(0, 0%, 70%), 0 3px 10px hsl(0, 0%, 70%);
+        margin-top: 50px;
+        width: 60%;
     }
     img {
         height: 300px;
@@ -30,7 +32,7 @@
         border-radius: 50%;
         border-style: solid;
         border-width: 8px;
-        border-color: #FF99A0;
+        border-color: var(--bg-2);
         box-shadow: 0 4px 10px hsl(0, 0%, 90%), 0 3px 10px hsl(0, 0%, 70%);
     }
 </style>
