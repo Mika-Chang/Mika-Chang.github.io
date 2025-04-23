@@ -1,11 +1,18 @@
-<div class="container">
-    q
+<script>
+    import ContactForm from "$lib/ContactForm.svelte";
+    import Linkbar from "$lib/Linkbar.svelte";
+</script>
+<div class="footer">
+    <div style="grid-area: 1 1"><ContactForm /></div>
+    <div style="grid-area: 2 1"><Linkbar /></div>
 </div>
 
 <style>
-    .container {
+    .footer {
         display: grid;
+        align-content: center;
+        padding: 10px;
         background: var(--bg-2);
-        margin: 0;
+        row-gap: 10px;
     }
 </style>
