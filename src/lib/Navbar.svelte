@@ -5,7 +5,7 @@
 -->
 <script lang="ts">
     import {page} from '$app/state' // used for getting curr page
-    const pages: string[] = ["home", "skills", "projects", "resume", "contact"];
+    const pages: string[] = ["home", "skills", "projects", "resume"];
 
     /**
      * Get the route for a given page.
