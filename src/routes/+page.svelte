@@ -21,8 +21,8 @@
         gap: 2rem;
     }
     img {
-        max-height: 400px;
-        max-width: 400px;
+        max-height: 350px;
+        max-width: 350px;
         border-radius: 50%;
         border-style: solid;
         border-width: 8px;

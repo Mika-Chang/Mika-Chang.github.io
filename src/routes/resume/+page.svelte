@@ -4,6 +4,9 @@
 </div>
 
 <style>
+    h1 {
+        text-align: center;
+    }
     div {
         display: flex;
         justify-content: center;
