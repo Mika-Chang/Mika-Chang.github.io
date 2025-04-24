@@ -7,8 +7,30 @@
     let { children } = $props();
 </script>
 
-<Navbar />
+<div class="container">
+    <div class="navbar">
+        <Navbar />
+    </div>
 
-{@render children()}
+    {@render children()}
 
-<Footer />
+    <div class="footer">
+        <Footer />
+    </div>
+</div>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+    }
+    .footer {
+        margin-top: auto;
+        width: 100%;
+    }
+</style>
