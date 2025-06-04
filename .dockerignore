@@ -1,0 +1,20 @@
+# Some of these I don't use but this was pulled from https://khromov.se/dockerizing-your-sveltekit-applications-a-practical-guide/
+# TODO look into prettier / some linter
+
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.gitattributes
+README.md
+.npmrc
+.prettierrc
+.eslintrc.cjs
+.graphqlrc
+.editorconfig
+.svelte-kit
+.vscode
+node_modules
+build
+package
+**/.env
