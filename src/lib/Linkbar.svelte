@@ -3,7 +3,7 @@
         <img src="/images/linkedin/InBug-White.png" alt="LinkedIn icon" />
     </a>
     <a href="https://github.com/mika-chang" class="git">
-        <img src="/images/github/github-mark-white.png" alt="LinkedIn icon" />
+        <img src="/images/github/github-mark-white.png" alt="GitHub icon" />
     </a>
 </div>
 
