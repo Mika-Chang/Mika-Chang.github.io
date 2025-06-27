@@ -1,4 +1,4 @@
-# Deploy script from https://svelte.dev/docs/kit/adapter-static
+# Based on deploy script from https://svelte.dev/docs/kit/adapter-static
 
 name: Test Site Build
 
@@ -31,5 +31,4 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          # this should match the `pages` option in your adapter-static options
           path: 'build/'

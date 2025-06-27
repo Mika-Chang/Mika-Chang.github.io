@@ -26,12 +26,13 @@ jobs:
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
-          cross-env ADAPTER=static npm run build
+          # Ensure static adapter is used since Pages only serves static content
+          ADAPTER=static npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          # this should match the `pages` option in your adapter-static options
+          # this should match the `pages` option in adapter-static options
           path: 'build/'
 
   deploy:
