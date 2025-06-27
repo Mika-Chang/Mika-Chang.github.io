@@ -1,6 +1,6 @@
 # Deploy script from https://svelte.dev/docs/kit/adapter-static
 
-name: Deploy to GitHub Pages
+name: Test Site Build
 
 on:
   push:
