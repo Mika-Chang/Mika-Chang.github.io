@@ -5,7 +5,8 @@
 -->
 <script lang="ts">
     import {page} from '$app/state' // used for getting curr page
-    const pages: string[] = ["home", "skills", "projects", "resume"];
+    // const pages: string[] = ["home", "skills", "projects", "resume", "daily"];
+    const pages: string[] = ["home", "daily updates", "resume"];
 
     /**
      * Get the route for a given page.
@@ -14,6 +15,7 @@
      * @return {string} The route for the page
      */
     function getRoute(name: string): string {
+        name = name === "daily updates" ? "daily" : name;
         return name === "home" ? "/" : "/" + name;
     }
 
@@ -52,7 +54,6 @@
         border-radius: 12px;
         box-shadow: 0 2px 4px hsl(0, 0%, 70%), 0 3px 10px hsl(0, 0%, 70%);
     }
-
     a {
         color: #000000; /* default just in case */
         font-weight: bold;
@@ -60,7 +61,6 @@
         margin: 10px;
         text-decoration: none;
     }
-
     .active {
         text-decoration: underline;
         text-underline-offset: 12px;
