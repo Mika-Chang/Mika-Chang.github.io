@@ -18,6 +18,10 @@
         <li> Trying to work backwards from having a successful DevOps/SRE role to now, so I can build towards that. I've been watching/reading content by Mischa van den Burg (<a href="https://mischavandenburg.com/aboutme/">https://mischavandenburg.com/aboutme/</a>).
         </li>
     </ul>
+    <h3>June 26, 2025</h3>
+    <p>Huge wins today! I implemented a <a href="https://www.ryanfiller.com/blog/tips/conditional-sveltekit-adapters">conditional svelte adapter</a> using a blog post by <a href="https://www.ryanfiller.com/">Ryan Filler</a>. He's written some really cool stuff. In one <a href="https://www.ryanfiller.com/blog/why-my-blog-stopped-using-deploy-previews">blog post</a>, he tried to calculate the C02 emissions of his blog and then took steps to reduce the emissions which was awesome. It's sometimes easy to forget how much the use of the cloud can affect the environment (a lot).</p>
+    <p>Once the adapter was implemented I dove into Github Actions. I was able to set up a workflow to test the website build when changed in multiple branches and updated the deployment workflow to use the correct adapter! Next, I'd like to automatically deploy to my
+    <a href="https://mika-chang.github.io/">github pages site</a> and my <a href="https://mikacc.xyz/">personal website (mikacc.xyz)</a>.</p>
     <h3>June 25, 2025</h3>
     <p>Today I read <i>Show Your Work</i> by Austin Kleon (<a href="https://austinkleon.com">https://austinkleon.com</a>).
         I couldn't put it down! I've struggled to be vulnerable enough to show my process, but I think doing so would help me, and hopefully other people in my shoes. These were the takeaways that really stuck with me.</p>
