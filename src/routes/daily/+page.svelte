@@ -19,7 +19,7 @@
         </li>
     </ul>
     <h3>June 29, 2025</h3><br><br><br>
-    Today (and yesterday) I learned webhooks! Now, the site at my domain should auto-update on pushes.
+    Today (and yesterday) I learned webhooks! Now, the site at my domain should auto-update on pushes. Or, it should...
 
     <h3>June 27, 2025</h3><br><br><br>
     <p>A summary of my current hosting setup. I'd like to automate the update process with a webhook and in the future use K8s and a GitOps tool:</p>
