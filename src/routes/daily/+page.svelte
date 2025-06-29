@@ -18,6 +18,8 @@
         <li> Trying to work backwards from having a successful DevOps/SRE role to now, so I can build towards that.
         </li>
     </ul>
+    <h3>June 29, 2025</h3><br><br><br>
+    Today (and yesterday) I learned webhooks!
 
     <h3>June 27, 2025</h3><br><br><br>
     <p>A summary of my current hosting setup. I'd like to automate the update process with a webhook and in the future use K8s and a GitOps tool:</p>
