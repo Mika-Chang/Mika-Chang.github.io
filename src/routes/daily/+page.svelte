@@ -19,7 +19,7 @@
         </li>
     </ul>
     <h3>June 29, 2025</h3>
-    <p>Today (and yesterday) I learned about webhooks! Instead of needing to poll a service to check for updates, the service can be set up to push information to a set endpoint. Now, the site content of my site automatically updates on pushes since the Github repo is configured to send a request to my server. The process is based <a href="https://hookdeck.com/">Hookdeck</a>, a service that hosts a public endpoint for a webhook and can relay the information to a machine locally. I also built a flask app hosted locally on my VPS that receives the information from Hookdeck and executes a script to rebuild and run the docker containers running the site.</p>
+    <p>Today (and yesterday) I learned about webhooks! Instead of needing to poll a service to check for updates, the service can be set up to push information to a set endpoint. Now, the site content of my site automatically updates on pushes since the Github repo is configured to send a request to my server. The process is based <a href="https://hookdeck.com/">Hookdeck</a>, a service that hosts a public endpoint for a webhook and can relay the information to a machine locally. I also built a flask app hosted locally on my VPS that receives the information from Hookdeck and executes a script to rebuild and run the docker containers running the site.</p> test
 
     <img src="/images/webhook.png" alt="The webhook workflow" />
 
