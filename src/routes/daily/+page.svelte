@@ -23,8 +23,6 @@
 
     <img src="/images/webhook.png" alt="The webhook workflow" />
 
-    A weakness I found with this setup is that I need to have an ssh session open, so I'll probably be looking into nohup and/or tmux next.
-
     <h3>June 27, 2025</h3>
     <p>A summary of my current hosting setup. I'd like to automate the update process with a webhook and in the future use K8s and a GitOps tool:</p>
     <ul>
