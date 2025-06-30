@@ -18,10 +18,12 @@
         <li> Trying to work backwards from having a successful DevOps/SRE role to now, so I can build towards that.
         </li>
     </ul>
-    <h3>June 29, 2025</h3><br><br><br>
-    Today (and yesterday) I learned webhooks! Now, the site at my domain should auto-update on pushes. Or, it should. How about now? Ok now! Another test
+    <h3>June 29, 2025</h3>
+    <p>Today (and yesterday) I learned about webhooks! Instead of needing to poll a service to check for updates, the service can be set up to push information to a set endpoint. Now, the site content of my site automatically updates on pushes since the Github repo is configured to send a request to my server. The process is based <a href="https://hookdeck.com/">Hookdeck</a>, a service that hosts a public endpoint for a webhook and can relay the information to a machine locally. I also built a flask app hosted locally on my VPS that receives the information from Hookdeck and executes a script to rebuild and run the docker containers running the site.</p>
 
-    <h3>June 27, 2025</h3><br><br><br>
+    <img src="/images/webhook.png" alt="The webhook workflow" />
+
+    <h3>June 27, 2025</h3>
     <p>A summary of my current hosting setup. I'd like to automate the update process with a webhook and in the future use K8s and a GitOps tool:</p>
     <ul>
     <li>Infrastructure: <ul>
