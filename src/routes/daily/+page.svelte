@@ -18,6 +18,8 @@
         <li> Trying to work backwards from having a successful DevOps/SRE role to now, so I can build towards that.
         </li>
     </ul>
+    <h3>June 30, 2025</h3>
+    <p>I broke my homelab repo into a remote directory for services on my VPS and and a home directory which will be implemented on a server on my local network. As a test for the home server, I added an instance of <a href="https://orb.net/">orb</a> running in a docker container. It's a pretty neat wifi metrics application that can give information about a network.</p>
     <h3>June 29, 2025</h3>
     <p>Today (and yesterday) I learned about webhooks! Instead of needing to poll a service to check for updates using an API, a webhook requires the service to send information to a set endpoint. For example, the repository for my GitHub Pages site is configured to send a POST request every time someone pushes to the repo. To receive the POST request, I used <a href="https://hookdeck.com/">Hookdeck</a>, a service that hosts a public endpoint for a webhook and can relay the information to a machine locally. I also built a flask app hosted locally on my VPS that receives the information from Hookdeck and executes a script to rebuild and restart the docker containers running the site.</p>
 
