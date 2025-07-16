@@ -8,7 +8,7 @@ on:
     branches: 'auto-build'
 
 jobs:
-  docker:
+  Build and Push Image:
     runs-on: ubuntu-latest
     steps:
       - name: Login to Docker Hub
@@ -29,5 +29,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ vars.DOCKER_REGISTRY }}:latest
-            ${{ vars.DOCKER_REGISTRY }}:1.0.0
+            ${{ vars.DOCKER_REGISTRY }}/remote-portfolio:latest
+            ${{ vars.DOCKER_REGISTRY }}/remote-portfolio:1.0.0
