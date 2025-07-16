@@ -28,5 +28,5 @@ jobs:
           tags: |
             mikacc/app:latest
             mikacc/app:1.0.0
-            #ghcr.io/user/app:latest
-            #ghcr.io/user/app:1.0.0
+            # ghcr.io/user/app:latest
+            # ghcr.io/user/app:1.0.0
