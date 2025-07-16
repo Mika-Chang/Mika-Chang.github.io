@@ -1,4 +1,7 @@
-name: test
+# Based on the build and push docker image action on the github actions marketplace
+# This uses path context to make use of the .dockerignore file. See the path context section at
+# https://github.com/marketplace/actions/build-and-push-docker-images
+name: Build Node-Based Docker Image
 
 on:
   push:
@@ -26,5 +29,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            mikacc/app:latest
-            mikacc/app:1.0.0
+            ${{ vars.DOCKER_REGISTRY }}:latest
+            ${{ vars.DOCKER_REGISTRY }}:1.0.0
