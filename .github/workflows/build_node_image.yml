@@ -5,7 +5,7 @@ name: Build Node-Based Docker Image
 
 on:
   push:
-    branches: 'auto-build'
+    branches: 'main'
 
 jobs:
   build_and_push_image:
