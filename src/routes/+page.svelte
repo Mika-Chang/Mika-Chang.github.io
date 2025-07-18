@@ -3,7 +3,7 @@
     <div class="bio">
         <h2>Mika Chang</h2>
         <p>
-            TEST. Hi there! Thanks so much for checking out my site! I'm a developer that's into
+            TEST. TESTING. Hi there! Thanks so much for checking out my site! I'm a developer that's into
             automation, computer networking, and data ethics. In my free time I enjoy
             working on personal projects, playing video games with my friends, running,
             and spending time with my partner.
