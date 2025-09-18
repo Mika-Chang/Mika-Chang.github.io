@@ -15,7 +15,6 @@
      * @return {string} The route for the page
      */
     function getRoute(name: string): string {
-        name = name === "daily updates" ? "daily" : name;
         return name === "home" ? "/" : "/" + name;
     }
 
